@@ -1,0 +1,114 @@
+{
+  "requirements": [
+    {
+      "identifier": "test_validar_melhor_horario_com_sucesso",
+      "description": "1.1 - Retorne, para uma entrada específica, a quantidade de estudantes presentes",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_permanence_periods_com_entradas_invalidas",
+      "description": "1.2 - Retorne `None` se em `permanence_period` houver alguma entrada inválida",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_target_time_com_vazio",
+      "description": "1.3 - Retorne `None` se  `target_time` recebe um valor vazio",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_tempo_schedule",
+      "description": "1.4 - A função poderá, em menos que 0.02s, ser executada 10.000 vezes para uma entrada pequena (tempo da execução do avaliador no Pull Request)",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_se_a_palavra_e_um_palindromo_retorna_true",
+      "description": "2.1 - Retorne `true` se a palavra passada por parâmetro for um palíndromo",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_se_a_palavra_nao_e_um_palindromo_retorna_false",
+      "description": "2.2 - Retorne `false` se a palavra passada por parâmetro não for um palíndromo",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_se_nao_passar_palavra_retorna_false",
+      "description": "2.3 - Retorne `false` se nenhuma palavra for passada por parâmetro",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_se_as_palavras_sao_um_anagrama",
+      "description": "3.1 - Retorne `true` se as palavras passadas forem anagramas",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_se_as_palavras_nao_sao_um_anagrama",
+      "description": "3.2 - Retorne `false` se as palavras passadas por parâmetro não forem anagramas",
+      "bonus": false
+    },
+    {
+      "identifier": "test_valida_palavra_em_branco_retorna_false",
+      "description": "3.3 - Retorne `false` se alguma das palavras passadas por parâmetro for uma string vazia",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_tempo_anagrama",
+      "description": "3.4 - Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 8.2s (tempo da execução do avaliador no Pull Request)",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_se_encontra_numeros_repetidos",
+      "description": "4.1 - Retorne o número repetivo se a função receber, como parâmetro, uma lista com números repetidos",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_retorna_false_quando_nao_envia_valores",
+      "description": "4.2 - Retorne `false` se a função não receber nenhum parâmetro",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_retorna_false_quando_envia_string",
+      "description": "4.3 - Retorne `false` se a função receber, como parâmetro, uma string",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_retorna_false_quando_nao_ha_repeticao",
+      "description": "4.4 - Retorne `false` se a função receber, como parâmetro, uma lista sem números repetidos",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_retorna_false_quando_passa_um_valor_apenas",
+      "description": "4.5 - Retorne `false` se a função receber, como parâmetro, apenas um valor",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_retorna_false_quando_passa_numero_negativo",
+      "description": "4.6 - Retorne `false` se a função receber, como parâmetro, um número negativo",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_tempo_duplicate",
+      "description": "4.7 - Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 0.01s (tempo da execução do avaliador no Pull Request)",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_a_palavra_e_um_palindromo_iterativo_retorna_true",
+      "description": "5.1 - Retorne `true` se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_a_palavra_nao_e_um_palindromo_iterativo_retorna_false",
+      "description": "5.2 - Retorne true se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_se_nao_passar_palavra_iterativa_retorna_false",
+      "description": "5.3 - Retorne `false` se nenhuma palavra for passada como parâmetro, executando uma função iterativa",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_tempo_iterative",
+      "description": "5.4 - Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 0.005s (tempo da execução do avaliador no Pull Request)",
+      "bonus": true
+    }
+  ]
+}
